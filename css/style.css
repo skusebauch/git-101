@@ -3,6 +3,7 @@
 
 /* --- Components design --- */
 @import url("components/avatar.css");
+@import url("components/banner.css");
 
 /* --- Fonts --- */
 body {
@@ -12,4 +13,16 @@ body {
 h1, h2, h3 {
 	font-family: "Montserrat";
 
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.Intro {
+	margin-top: 10px;
 }
